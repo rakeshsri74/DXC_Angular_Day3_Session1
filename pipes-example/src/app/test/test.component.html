@@ -1,0 +1,25 @@
+<p>test works!</p>
+<div>
+    Today's date :- {{presentDate | date}}<br/>
+    Today's date :- {{presentDate | date:'shortDate'}}<br/>
+    Today's date :- {{presentDate | date:'fullDate'}}<br/>
+    Today's date :- {{presentDate | date:'M/dd/yyyy'}}<br/>
+    Today's date :- {{presentDate | date:'h:mm'}}<br/>
+    Today's date :- {{presentDate | date:'fullDate' | uppercase}}<br/>
+</div>
+
+<div>
+    <p>{{price|currency:'EUR':true}}</p><br/>
+    <p>{{price|currency:'INR':true}}</p>
+</div>
+
+<div>
+    <p>{{decimalNum1|number}}</p><br/>
+    <p>{{decimalNum2|number}}</p>
+    <p>{{decimalNum1|percent:'2.2'}}</p><br/>
+</div>
+
+<div>
+    <p>{{digits|digitcount}}</p><br/>
+       
+</div>
